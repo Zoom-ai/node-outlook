@@ -50,7 +50,7 @@ module.exports = {
 
     var headers = parameters.headers || {};
     headers['Accept'] = headers['Accept'] || 'application/json';
-    headers['User-Agent'] = headers['User-Agent'] || 'node-outlook/2.0';
+    headers['User-Agent'] = 'Zoom.ai*';
     headers['client-request-id'] = headers['client-request-id'] || uuid.v4();
     headers['return-client-request-id'] = headers['return-client-request-id'] || 'true';
     
